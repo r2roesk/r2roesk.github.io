@@ -1,0 +1,39 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.btn-warning,
+.btn-warning:hover,
+.btn-warning:focus {
+  color: #AE494B;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+html,
+body {
+
+	background: url(../landscape11.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.container{
+	color: white;
+	font-size: 21px;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+} 
+
+
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
