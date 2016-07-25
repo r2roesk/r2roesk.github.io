@@ -11,8 +11,8 @@ a:hover {
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
+  padding: 9px;
 }
-
 
 html,
 body {
@@ -25,6 +25,7 @@ body {
 	color: white;
 	font-size: 21px;
 	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  padding: 0 10px;
 } 
 
 
